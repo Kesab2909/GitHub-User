@@ -1,0 +1,79 @@
+.app {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .search-bar {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+  }
+  
+  .search-input {
+    flex: 1;
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  .search-button {
+    padding: 8px 16px;
+    background-color: #0366d6;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .loader {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .error-message {
+    color: red;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .user-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .user-avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .user-stats {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+  }
+  .recent-searches {
+    margin: 20px 0;
+  }
+  
+  .recent-searches ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .recent-searches li {
+    margin: 5px 0;
+  }
+  
+  .recent-searches button {
+    background: none;
+    border: none;
+    color: #0366d6;
+    cursor: pointer;
+    padding: 5px;
+  }
+  .recent-searches button:hover {
+    text-decoration: underline;
+  }
